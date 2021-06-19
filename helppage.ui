@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpPage</class>
+ <widget class="QWidget" name="HelpPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>帮助文档</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/image/help.svg</normaloff>:/image/help.svg</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>601</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;使用说明&lt;/p&gt;&lt;p&gt;1、。。。。。。。。。。。。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/image/baiduLogo.ico&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;2、。。。。。。。。。。。。。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/image/AI.svg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;3、。。。。。。。。。。。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

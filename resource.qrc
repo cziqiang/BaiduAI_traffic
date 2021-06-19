@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/AI.svg</file>
+        <file>image/AI1.svg</file>
+        <file>image/Ai2.svg</file>
+        <file>image/baidu.png</file>
+        <file>image/baidu.svg</file>
+        <file>image/baiduLogo.ico</file>
+        <file>image/bus.svg</file>
+        <file>image/car.svg</file>
+        <file>image/motor.svg</file>
+        <file>image/tricycle.svg</file>
+        <file>image/truck.svg</file>
+        <file>image/help.svg</file>
+        <file>image/A.svg</file>
+        <file>image/dakai.svg</file>
+        <file>image/guanbi.svg</file>
+        <file>image/guanbi_1.svg</file>
+        <file>image/qingchu.svg</file>
+        <file>image/qingchu_1.svg</file>
+        <file>image/qingchu_2.svg</file>
+        <file>image/wenjianjia.svg</file>
+    </qresource>
+</RCC>

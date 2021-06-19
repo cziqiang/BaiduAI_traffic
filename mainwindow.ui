@@ -1,0 +1,1998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1162</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1162</width>
+    <height>850</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1162</width>
+    <height>850</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>百度AI · 路况分析系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/image/baidu.svg</normaloff>:/image/baidu.svg</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>36</width>
+    <height>36</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>381</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Source-Operation</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>519</y>
+       <width>381</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>参数设置</string>
+     </property>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>331</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>分析区域</string>
+      </property>
+      <widget class="QWidget" name="widget_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>331</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QWidget" name="widget_4" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_7">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>微软雅黑 Light</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>A</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_AL">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_AR">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QWidget" name="widget_8" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_9">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>微软雅黑 Light</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>B</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_BL">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_BR">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QWidget" name="widget_10" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_11">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>微软雅黑 Light</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>D</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_DL">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_DR">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QWidget" name="widget_9" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="label_10">
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>30</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>微软雅黑 Light</family>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>C</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_CL">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="lineEdit_CR">
+             <property name="focusPolicy">
+              <enum>Qt::ClickFocus</enum>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>211</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="maximumSize">
+          <size>
+           <width>80</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>抽帧频率：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox">
+         <property name="minimumSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::ClickFocus</enum>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="value">
+          <number>5</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑 Light</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>fps</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget_14" native="true">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>190</y>
+        <width>311</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_14">
+       <item>
+        <widget class="QPushButton" name="startAnalyze">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>开始分析</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="playPause">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>播放/暂停</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>241</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt; color:#aa0000;&quot;&gt;注：抽帧频率需&amp;gt;2fps，建议5fps&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="startFrame">
+      <property name="geometry">
+       <rect>
+        <x>259</x>
+        <y>30</y>
+        <width>90</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>抽帧</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>300</y>
+       <width>381</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>视频信息</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QWidget" name="widget_15" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>路径：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_13">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>3</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_Path">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>290</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>320</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::ClickFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_13" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_26">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>文件名：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_FileName">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_11" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>类型：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>88</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_type">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>105</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_17">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>时长：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_duration">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_12" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_18">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>帧尺寸：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_frameSize">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>100</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_25">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>帧率：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_frameRate">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QOpenGLWidget" name="openGLWidgetSource">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>360</width>
+       <height>240</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelSourceVideo">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>360</width>
+       <height>240</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelSourceImg">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>360</width>
+       <height>240</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>510</y>
+       <width>381</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>10</y>
+      <width>741</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Result-Display</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>530</y>
+       <width>301</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>路况分析结果</string>
+     </property>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>291</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>小汽车</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_15">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>卡   车</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>摩托车</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_23">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>巴   士</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_24">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>三轮车</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>120</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLineEdit" name="lineEdit_carIn">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_truckIn">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_motorIn">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_busIn">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_tricycleIn">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>110</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLineEdit" name="lineEdit_carOut">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_truckOut">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_motorOut">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_busOut">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_tricycleOut">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>110</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>171</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widget_7" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="maximumSize">
+             <size>
+              <width>80</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>11</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="text">
+             <string>累计驶入</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLCDNumber" name="lcdNumber_In">
+            <property name="minimumSize">
+             <size>
+              <width>80</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>80</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>黑体</family>
+              <pointsize>9</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="mouseTracking">
+             <bool>false</bool>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Box</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <property name="smallDecimalPoint">
+             <bool>true</bool>
+            </property>
+            <property name="digitCount">
+             <number>2</number>
+            </property>
+            <property name="mode">
+             <enum>QLCDNumber::Dec</enum>
+            </property>
+            <property name="segmentStyle">
+             <enum>QLCDNumber::Filled</enum>
+            </property>
+            <property name="value" stdset="0">
+             <double>0.000000000000000</double>
+            </property>
+            <property name="intValue" stdset="0">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_6" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_14">
+            <property name="maximumSize">
+             <size>
+              <width>80</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>11</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Plain</enum>
+            </property>
+            <property name="text">
+             <string>累计驶出</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLCDNumber" name="lcdNumber_Out">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>80</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>黑体</family>
+              <pointsize>9</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="mouseTracking">
+             <bool>false</bool>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Box</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <property name="smallDecimalPoint">
+             <bool>true</bool>
+            </property>
+            <property name="digitCount">
+             <number>2</number>
+            </property>
+            <property name="mode">
+             <enum>QLCDNumber::Dec</enum>
+            </property>
+            <property name="segmentStyle">
+             <enum>QLCDNumber::Filled</enum>
+            </property>
+            <property name="value" stdset="0">
+             <double>0.000000000000000</double>
+            </property>
+            <property name="intValue" stdset="0">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="picture">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>60</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resource.qrc">:/image/AI.svg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>530</y>
+       <width>431</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="title">
+      <string>状态信息</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="font">
+         <font>
+          <family>黑体</family>
+          <pointsize>9</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'黑体','黑体','微软雅黑','微软雅黑'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'黑体'; font-size:9.07563pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QProgressBar" name="progressBar">
+        <property name="value">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QOpenGLWidget" name="openGLWidgetResult">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>720</width>
+       <height>480</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>99999</width>
+       <height>99999</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelResultImg">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>720</width>
+       <height>480</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelResultVideo">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>720</width>
+       <height>480</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <zorder>groupBox_7</zorder>
+   <zorder>groupBox_6</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1162</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionClear"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/wenjianjia.svg</normaloff>:/image/wenjianjia.svg</iconset>
+   </property>
+   <property name="text">
+    <string>open</string>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/guanbi_1.svg</normaloff>:/image/guanbi_1.svg</iconset>
+   </property>
+   <property name="text">
+    <string>close</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/qingchu_2.svg</normaloff>:/image/qingchu_2.svg</iconset>
+   </property>
+   <property name="text">
+    <string>clear</string>
+   </property>
+  </action>
+  <action name="actionA">
+   <property name="text">
+    <string>A</string>
+   </property>
+  </action>
+  <action name="actionB">
+   <property name="text">
+    <string>B</string>
+   </property>
+  </action>
+  <action name="actionC">
+   <property name="text">
+    <string>C</string>
+   </property>
+  </action>
+  <action name="actionD">
+   <property name="text">
+    <string>D</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
